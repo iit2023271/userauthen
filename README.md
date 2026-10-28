@@ -2,6 +2,10 @@
 
 A URL shortener where short links are created behind login-only routes, with visit-history tracking and cookie-based sessions. Sign up, log in, shorten a URL, and see every visit it gets.
 
+## Screenshot
+
+![Demo](screenshots/demo.png)
+
 ## Features
 
 - **User auth** — sign up and log in, with cookie-based sessions
