@@ -2,8 +2,6 @@
 
 A URL shortener where short links are created behind login-only routes, with visit-history tracking and cookie-based sessions. Sign up, log in, shorten a URL, and see every visit it gets.
 
-![Demo](screenshots/demo.png)
-
 ## Features
 
 - **User auth** — sign up and log in, with cookie-based sessions
@@ -40,5 +38,5 @@ MONGODB=mongodb://localhost:27017/short-url npm start
 
 ## Notes
 
-- The screenshot above is the login page — the app redirects unauthenticated visitors there.
+- Unauthenticated visitors are redirected to the login page.
 - Short-link creation (`/url`) is protected: only logged-in users can create links.
